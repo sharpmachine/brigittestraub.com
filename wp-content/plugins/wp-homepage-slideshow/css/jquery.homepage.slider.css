@@ -1,0 +1,105 @@
+#dazake *{
+	margin:0px;
+	padding:0px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+#dazake ul{
+	padding:0px;
+	margin:0px;
+}
+
+#dazake{
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+#dazake .sliderInner{
+	margin:10px;
+	overflow: hidden;
+}
+
+#dazake .slider-info{
+	position: absolute;
+	width:250px;
+	height: 160px;
+	z-index: 999;
+	border-radius: 10px;
+}
+
+#dazake .slider-info-title{
+	color: inherit;
+	text-align: center;
+	margin:10px 0px 5px;
+}
+
+#dazake .slider-info-content{
+	color:inherit;
+	font-weight: 400;
+	text-align: center;
+	width:230px;
+	margin:0px 10px;
+}
+
+#dazake .slider-viewmore{
+	width: 120px;
+	padding:5px 5px;
+	background:#2DA6E9;
+	color:#fff;
+	text-decoration: none;
+	/*border:1px solid #2997D4;*/
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	margin-left: -60px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#dazake .slider-left{
+	width:66.7%;
+	height: 100%;
+	float:left;
+	position: relative;
+}
+
+#dazake .imgbox {
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+#dazake .imgbox img{
+	height: auto;
+	/*position: absolute;*/
+	max-width: 100%;
+}
+
+#dazake .slider-right{
+	width:33.3%;
+	height: 100%;
+	float: right;
+}
+
+#dazake .slider-tab{
+	height: 48px;
+	cursor: pointer;
+	margin-left: 20px;
+	list-style: none;
+	line-height: 48px;
+	text-indent: 10px;
+	margin-bottom: 5px;
+	border-bottom:1px solid #ADBEA1;
+	font-weight: 200;
+}
+
+#dazake .slider-tab:hover{
+	width: 100%;
+	margin-left:0px;
+}
+
+#dazake .tab-active{
+	width: 100%;
+	margin-left:0px;
+}

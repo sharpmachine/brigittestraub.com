@@ -1,0 +1,822 @@
+/*
+Theme Name: White Gold
+Theme URI: http://nischalmaniar.info/2009/06/white-gold-theme/
+Description: Stylish theme having three columns with content in center. Fixed-width, widget-ready, translation-ready, paged Navigation and threaded comments. Several options available to customize the theme. Custom description or latest tweet for the header. Add-to-any sharing button available below each post. Compatible with wordpress 2.7 and higher upto 2.8.4. Valid XHTML and CSS. Compatible with IE 7+, Firefox 3.0+, Safari 3.0+, Chrome. Demo with all options enabled: http://nischalmaniar.info/wpthemes/?themedemo=white-gold
+Version: 1.5
+Author: Nischal Maniar
+Author URI: http://www.nischalmaniar.info
+Tags: White, Light, three-columns, Fixed-width, Theme-options, Translation-ready, Threaded-comments, Custom-header 
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+*/
+
+/* body & layout & typography */
+
+body {
+	font-family: Arial;
+	background: #272A2E url(images/background.png) repeat-x;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+	
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+}
+
+#wrapper {
+	width: 1100px;
+	text-align: left;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+	background: #ffffff;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
+}
+
+blockquote {
+	border-left: 3px #CCCCCC solid;
+	font-family: Georgia;
+	font-style: italic;
+	margin: 15px;
+	padding: 15px;
+}
+
+a img {
+	border: none;
+}
+
+.wp-caption {
+	border: none;
+	text-align: center;
+	background-color: none;
+	padding-top: 0;
+	margin: 0;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+}
+
+/* banner */
+
+#banner {
+	width: 1100px;
+	background: url(images/banner-background.png) repeat-y;
+}
+
+#banner .logo {
+	float: left;
+	margin: 15px 0 15px 15px;
+	height: 64px;
+}
+
+#banner .logo h1 {
+	font-size: 25px;
+	font-family: Arial Narrow;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 10px 0 0 30px;
+}
+
+#banner .logo h1 a {
+	color: #CFC6D4;
+	text-decoration: none;
+}
+
+#banner .logo .description {
+	margin: 0 0 0 30px;
+	color: #B6CA9C;
+	font-size: 12px;
+}
+
+#banner .aboutortweet {
+	float: right;
+	width: 500px;
+	margin: 15px 15px 0 0;
+}
+
+#banner .abouttweettop {
+	background: url(images/abouttweettop.png) no-repeat;
+	height: 14px;
+	width: 500px;
+}
+
+#banner .abouttweetbottom {
+	background: url(images/abouttweetbottom.png) no-repeat;
+	height: 14px;
+	width: 500px;
+}
+
+#banner .abouttweetcenter {
+	background: url(images/abouttweetcenter.png) repeat-y;
+	width: 500px;
+	overflow: hidden;
+}
+
+#banner .abouttweetcenter .gravatar-tweet {
+	float: left;
+	border-right: 1px #888F99 dotted;
+	margin-left: 15px;
+	padding-right: 15px;
+}
+
+#banner .abouttweetcenter .gravatar-tweet img {
+	border: 3px #565C65 solid;
+}
+
+#banner .abouttweetcenter .about-tweet {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #B6CA9C;
+	font-size: 12px;
+	font-family: Georgia;
+	font-style: italic;
+	width: 390px;
+	overflow: hidden;
+	line-height: 150%;
+}
+
+#banner .abouttweetcenter .gravatar-tweet #twitterbird {
+	border: none;
+}
+
+#banner .abouttweetcenter .about-tweet ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#banner .abouttweetcenter .about-tweet ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#banner .abouttweetcenter .about-tweet ul a {
+	color: gray;
+	text-decoration: none;
+}
+
+#twitter-link {
+	color: gray;
+	text-decoration: none;
+}
+
+/* menu */
+
+#menu-div {
+	width: 1100px;
+	background: #ffffff;
+	height: 32px;
+}
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	height: 32px;
+}
+
+#menu li {
+	margin: 0;
+	background: #ffffff;
+	float: left;
+	padding: 0;
+}
+
+#menu li a {
+	background: transparent url(images/menu-li.png) no-repeat;
+	display:block;
+	color:#565C65;
+	height:32px;
+	line-height:32px;
+	padding:0 20px;
+	margin-left:-10px;
+	text-decoration:none;
+	z-index:1;
+}
+
+#menu li.current_page_item a {
+	background: transparent url(images/current-li.png) no-repeat;
+}
+
+#menu li a:hover {
+	background: transparent url(images/menu-li-hover.png) no-repeat;
+}
+
+#menu li a.home {
+	background: transparent url(images/home-li.png) no-repeat;
+	width: 15px;
+}
+
+#menu li.current_page_item a.home {
+	background: transparent url(images/home-li-current.png) no-repeat;
+	width: 15px;
+}
+
+#menu li a.home:hover {
+	background: transparent url(images/home-li-hover.png) no-repeat;
+}
+
+#menu li a.last:hover {
+	background: transparent url(images/menu-li.png) no-repeat;
+	cursor: default;
+}
+
+/* content */
+
+#content {
+	background: url(images/content-background.png) repeat-y;
+	width: 1100px;
+	overflow: hidden;
+	border-top: 1px #DAE5D0 solid;
+	padding: 20px 0 0 0;
+}
+
+/* sidebars */
+
+.sidebar {
+	width: 250px;
+	float: left;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 10px 0 10px;
+}
+
+#leftsidebar {
+	margin-left: 20px;
+}
+
+#rightsidebar {
+	margin-right: 20px;
+}
+
+.sidebar ul ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul li {
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+
+.sidebar ul li h2 {
+	background: url(images/heading-background.png) no-repeat;
+	line-height: 29px;
+	text-align: center;
+	padding: 0 5px 0 5px;
+	font-size: 14px;
+	color:#727272;
+	margin-bottom: 5px;
+}
+
+.sidebar ul li ul li {
+	margin: 0;
+	padding: 7px 5px 7px 5px;
+	background: url(images/divider.png) no-repeat center bottom;
+}
+
+.sidebar ul li ul li a {
+	text-decoration: none;
+	color: #727272;
+}
+
+.sidebar ul li ul li a:hover {
+	color: #4B4B4B;
+}
+
+.sidebar ul li div a {
+	text-decoration: none;
+	color: #727272;
+}
+
+.sidebar ul li div a:hover {
+	color: #4B4B4B;
+}
+
+.sidebar ul li li li, .sidebar ul li li li li, .sidebar ul li li li li li {
+	background: url(images/arrow.png) no-repeat;
+	padding-left: 13px;
+}
+
+/* tags */
+
+.widget_tag_cloud a {
+	color: #727272;
+	text-decoration: none;
+}
+
+.widget_tag_cloud a:hover {
+	color: #4B4B4B;
+}
+
+/* calendar */
+
+#wp-calendar {
+	width: 100%;
+	color: #727272;
+}
+
+#wp-calendar a {
+	color: #4b4b4b;
+	text-decoration: none;
+}
+
+#wp-calendar caption {
+	margin: 5px 0 5px 0;
+}
+
+#prev {
+	text-align: left;
+}
+
+#next {
+	text-align: right;
+}
+
+/* search */
+
+#search .search-back {
+	background: url(images/search-background.png) no-repeat;
+	width: 213px;
+	height: 30px;
+	padding: 5px 5px 5px 8px;
+}
+
+#s {
+	background: url(images/searchtextback.png) repeat;
+	border: none;
+	width: 160px;
+	color: #565C65;
+}
+
+/* container */
+
+.container {
+	float: left;
+	width: 530px;
+	padding: 0 35px 0 35px;
+}
+
+/* posts */
+
+.posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: #727272;
+}
+
+.posts a {
+	color: #4B4B4B;
+	text-decoration: none;
+}
+
+.posts li {
+	margin: 0 0 35px 0;
+}
+
+.post-header {
+	background: url(images/post-divider.png) no-repeat bottom left;
+	padding-bottom: 5px;
+}
+
+.post-title {
+	float: left;
+	margin-right: 15px;
+}
+
+.post-comment {
+	float: right;
+	padding-top: 6px;
+	font-size: 12px;
+}
+
+.post-meta {
+	color: #575E66;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.post-meta a {
+	color: #575E66;
+	text-decoration: none;
+}
+
+.post-meta .post-admin {
+	float: left;
+}
+
+.post-meta .post-date {
+	float: left;
+	font-size: 12px;
+	color: #575E66;
+	font-weight: lighter;
+	margin-right: 15px;
+}
+
+.post-title h2 {
+	color: #575E66;
+	font-size: 18px;
+}
+
+.post-title h2 a {
+	color: #575E66;
+	text-decoration: none;
+}
+
+.post_content {
+	line-height: 200%;
+	margin-top: 20px;
+}
+
+.post_content a {
+	color: #333333;
+}
+
+.post_content a:hover {
+	text-decoration: underline;
+}
+
+.post_content img {
+	background: #E3E3E3;
+	padding: 6px;
+	border: 1px #BDBDBD solid;
+}
+
+.post_content .wp-smiley {
+	border: none;
+	padding: 0;
+	background: none;
+}
+
+.post_content ul {
+	list-style: disc;
+	line-height: 200%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+ .post_content ul li {
+	margin: 0;
+	padding: 0;
+}
+
+.post_content ol {
+	line-height: 200%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.post_content ol li {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.post_content table {
+	border-collapse: collapse;
+	border: 1px gray solid;
+}
+
+.post_content table th {
+	text-align: center;
+	background: #8F8F8F;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.post_content table td {
+	padding: 5px;
+}
+
+.post-pages {
+	margin-top: 10px;
+}
+
+.post-pages span {
+	line-height: 18px;
+	width: 18px;
+	background: url(images/post-pages-back-hover.png) no-repeat;
+	text-align: center;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 11px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+.post-pages a span {
+	color: #7f7f7f;
+	background: url(images/post-pages-back.png) no-repeat;
+}
+
+.post-pages a span:hover {	
+	color: #FFFFFF;
+	background: url(images/post-pages-back-hover.png) no-repeat;
+}
+
+.post-cat-meta {
+	font-size: 12px;
+	margin: 20px 0 5px 0;
+}
+
+.post-cat-meta .post-category {
+	float: left;
+	margin-right: 20px;
+}
+
+.post-cat-meta .post-tag {
+	float: left;
+}
+
+.add-to-any {
+	margin-top: 20px;
+}
+
+.add-to-any a {
+	font-weight: lighter;
+	border: none;
+}
+
+/* navigation */
+.navigation { padding-bottom: 20px; }
+.navigation-pages { border-top: 1px #D1D1D1 solid; padding-top: 15px; }
+.navigation-pages ul { list-style: none; margin:0; padding: 0; }
+.navigation-pages li { line-height:0%; display:inline; padding:0; margin:0; font-size:12px; zoom:1; }
+.navigation-pages a, .navigation-pages a:visited, .navigation-pages a:hover, .navigation-pages span.current,
+.navigation-pages span.pages, .navigation-pages span.extend, .navigation-pages span.current, .navigation-pages span.dots
+ { color:#999999; width:28px; padding:0; margin:0 10px 0 0; display:block; float:left; text-decoration: none; text-align:center; line-height:27px; background:url(images/page-num-back.png) no-repeat left top; }
+.navigation-pages a:hover { color:#fff; background:url(images/page-num-current.png) no-repeat left bottom; text-decoration:none; }
+.navigation-pages span.current { background:url(images/page-num-current.png) no-repeat left top; color:#fff; }
+
+/* comments */
+
+.com {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.tabs {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#commentstab {
+	display: none;
+}
+
+#trackbackstab {
+	display: none;
+}
+
+.tabs li {
+	float: left;
+	margin: 0;
+	padding: 8px;
+}
+
+.tabs li.active {
+	background: url(images/tabs-background.png) repeat-y;
+}
+
+.tabs li h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.com div {
+	clear: both;
+	width: 100%;
+	background: url(images/tabs-background.png) repeat-y;
+	overflow: hidden;
+}
+
+.commentslist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.commentslist p {
+	line-height: 200%;
+}
+
+.commentslist a {
+	color: #333333;
+}
+
+.avtar img {
+	border: 4px #e3e3e3 solid;
+}
+
+.commentslist li {
+	margin: 0 15px 15px 15px;
+	padding: 0;
+	background: #FFFFFF url(images/comment-bottom.png) no-repeat bottom;
+}
+
+.commentslist li .com-wrapper {
+	background: url(images/comment-top.png) no-repeat top;
+	overflow: hidden;
+	clear: none;
+	padding: 15px;
+	width: 470px;
+}
+
+.com-wrapper .com-header {
+	float: left;
+	width: 10%;
+	background: none;
+	clear: none;
+	margin-right: 15px;
+}
+
+.com-wrapper .com-metadata {
+	float: left;
+	width: 80%;
+	background: none;
+	clear: none;
+}
+
+.com-wrapper .clear {
+	clear: both;
+	background: none;
+}
+
+.com-wrapper .com-text {
+	clear: none;
+	background: none;
+	margin-top: 10px;
+}
+
+.com-wrapper .com-text .reply {
+	background: none;
+	clear: none;
+}
+
+.commentslist li .children {
+	list-style: none;
+	margin: 0 0 0 15px;
+	padding: 0;
+	width: 90%;
+}
+
+.commentslist li .children li {
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+.children li .com-wrapper {
+	background: none;
+}
+
+.com-wrapper .com-text .nav_top {
+	color: gray;
+	background: none;
+	margin: 10px 0 10px 0;
+	clear: none;
+}
+
+.com-wrapper .com-text .nav_top a {
+	color: gray;
+}
+
+/* comment form */
+
+.leavereply {
+	margin-top: 20px;
+}
+
+#respond {
+	font-size: 18px;
+	padding-bottom: 5px;
+	background: url(images/post-divider.png) left bottom no-repeat;
+}
+
+#cancel-comment-reply {
+	margin: 10px 0 10px 0;
+}
+
+.textbox {
+	background: url(images/textbox-back.png) no-repeat;
+	width: 453px;
+	height: 31px;
+	padding: 7px 10px 0 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.textbox input {
+	border: 0;
+	width: 420px;
+	color: #7C858F;
+}
+
+.textarea {
+	background: url(images/textarea-back.png) no-repeat;
+	width: 453px;
+	height: 203px;
+	padding: 8px 10px 5px 10px;
+}
+
+.textarea textarea {
+	width: 420px;
+	height: 182px;
+	color: #7C858F;
+	border: 0;
+	font-family: Microsoft Sans Serif;
+	font-size: 13px;
+	overflow: auto;
+}
+
+#submit {
+	background: url(images/button-back.png) no-repeat;
+	width: 150px;
+	height: 27px;
+	border: none;
+	padding-bottom: 3px;
+	color: gray;
+}
+
+/* footer */
+
+#footer {
+	background: url(images/banner-background.png) no-repeat;
+	color: #B6CA9C;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+}
+
+#footer a {
+	color: #B6CA9C;
+	text-decoration: none;
+}
+
+#footer a img {
+	border: none;
+}

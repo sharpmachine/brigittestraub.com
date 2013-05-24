@@ -1,0 +1,26 @@
+<gallery>
+<properties>
+  <property0><![CDATA[opaque]]></property0>
+  <swfmousewheel>false</swfmousewheel>
+  <property1>0xffffff</property1>
+  <width><![CDATA[100%]]></width>
+  <height><![CDATA[400]]></height>
+  <titleColor>0xff0000</titleColor>
+  <linkColor>0xff0000</linkColor>
+  <ggDsTextColor>0x212121</ggDsTextColor>
+  <ggButtoColor1>0xc1c1c1</ggButtoColor1>
+  <ggButtoColor2>0xff0000</ggButtoColor2>
+  <vmBgColor>0x212121</vmBgColor>
+  <vmButtoColor1>0xffffff</vmButtoColor1>
+  <vmButtoColor2>0xff0000</vmButtoColor2>
+</properties>
+<category id="wake-up-media-logo">
+	<properties>
+		<title><![CDATA[Wake Up Media Logo]]></title>
+		<description><![CDATA[]]></description>
+		<skin><![CDATA[video_default]]></skin>
+	</properties>
+	<items>
+	</items>
+</category>
+</gallery>

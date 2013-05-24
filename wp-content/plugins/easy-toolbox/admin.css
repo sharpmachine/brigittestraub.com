@@ -1,0 +1,170 @@
+ /*
+Theme Name: easytoolbox
+Theme URI: http://easytoolbox.net/theme
+Description: Theme opimisé SEO by Fred
+Version: 1.0
+Tags: blue, 3-column, fixed-width
+Author: Fred
+Author URI: http://easytoolbox.net
+*/
+
+.form-table img{
+	 	padding : 0px 6px 0px 0px;
+	 	vertical-align:middle; 
+}
+
+.postbox {
+	 	background: #fff url(./images/bg_postbox.png) repeat-x bottom;
+		overflow: hidden;
+		position: relative;
+}
+
+#admin_bloc {
+	 	float:left;
+	 	padding : 0px 0px 0px 10px;
+	 	text-align:justify;
+}
+
+#structure {
+		float:left;
+	 	padding : 15px 6px 5px 0px;
+	 	
+}
+
+#submit_etb {
+		float:left;
+		width:950px;
+	 	padding : 0px 0px 20px 0px;
+}
+
+.wrap {
+		width:950px;
+		padding : 0px 10px 30px 10px;
+}
+
+.home_dark_etb {
+		width:420px;
+		float:left;
+	 	border: 0px solid #999;
+		padding : 20px 10px 10px 20px;
+		margin:0px 0px 0px 0px;
+		color:#eeeeee;
+}
+
+.home_dark_etb titre{
+		font-size:30px;
+		font-weight: bold;
+		text-shadow: #666666 1px 1px 0;
+}
+
+.theme_cover {
+		width:200px;
+		heiht:auto;
+		float:left;
+	 	}
+
+.postbox_dark_etb {
+	 	background: #686869 url(./images/bg_postbox_dark_etb.png) repeat-x top;
+	 	border: 1px solid #999;
+		border-radius: 7px;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		padding : 0px 0px 10px 0px;
+		margin:25px 2px 20px 0px;
+		color:#eeeeee;overflow: hidden;
+		position: relative;
+
+}
+
+.postbox_dark_etb h3 {
+	font-size:30px;
+	font-weight: bold;
+	color:#fff;
+	text-shadow: #OOO 0 1px 0;
+	font-size:2em;
+}
+
+
+
+.inside_dark_etb {
+		width:450px;
+		float:right;
+	 	background: #484848 url(./images/bg_inside_dark_etb.png) repeat-x top;
+	 	border: 0px solid #999;
+		border-radius: 7px;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		padding : 10px 10px 10px 10px;
+		margin:10px 10px 0px 10px;
+		color:#eeeeee;		
+}
+
+.inside_dark_etb a{
+		text-decoration:none;
+		
+}
+
+.menu {
+	width:550px;
+}
+
+.checkbox {
+	margin : 0px 10px 0px 0px;
+}
+
+.options {
+	background: #707070 url(./images/bg_option.png) repeat-x top; 
+	//width:100%;
+	color:#fff; 
+	//margin:0px 0px 0px 0px;
+	padding: 5px 5px 5px 15px
+}
+
+.options a{
+	color:#33cccc; 
+	text-decoration:none;
+}
+
+.options th{	
+	color:#fff; 
+	text-shadow: #000000 1px 1px 4px;
+	;
+	
+}
+
+.more_options {
+	width:100%;
+	height:17px;
+	padding:10px 0 0px 230px;
+
+}
+
+.more_options img{
+	vertical-align:top;
+	padding:3px 8px 3px 10px;
+	
+}
+
+.more_options a{
+	color:#666666; 
+	vertical-align:middle;
+	text-shadow: #fff 1px 1px 1px;
+	//background: #eeeeee url(./images/bg_option.png) repeat-x top;
+	padding:3px 8px 3px 10px;
+	margin:0 0 0px 0px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #cccccc;
+	cursor:pointer;
+}
+
+.more_options a:hover{
+	color:#000000; 
+	background: #eeeeee;
+}
+
+.more_options a:active{
+	color:red; 
+	background: #fff;
+}

@@ -1,0 +1,4 @@
+1.5: Changed the theme URI
+1.2: Errors fixed and theme submitted to wordpress
+1.1: Errors found
+1.0: Theme finally created !

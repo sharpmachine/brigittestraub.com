@@ -1,0 +1,1 @@
+<h4><?php _e('Cannot find what you are looking for. Try searching again !'); ?></h4>

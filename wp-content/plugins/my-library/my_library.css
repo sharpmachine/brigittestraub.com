@@ -1,0 +1,50 @@
+.my-library-row li {
+    display: inline-block;
+    vertical-align: top;
+    width: 125px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+.my-library-row img {
+    display: block;
+    margin: 3px auto;
+}
+#my-library-widget > div {
+    display: inline-block;
+    width: 86px;
+}
+#my-library-widget a {
+    min-width: 86px;
+}
+#my-library-widget img {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-library-1-star,
+.my-library-2-star,
+.my-library-3-star,
+.my-library-4-star,
+.my-library-5-star {
+    background-repeat: no-repeat;
+    margin: 3px auto;
+    height: 16px;
+    width: 80px;
+}
+.my-library-1-star {
+    background-position: -64px 0;
+}
+.my-library-2-star {
+    background-position: -48px 0;
+}
+.my-library-3-star {
+    background-position: -32px 0;
+}
+.my-library-4-star {
+    background-position: -16px 0;
+}
+.my-library-5-star {
+    background-position: 0 0;
+}
